@@ -1,13 +1,20 @@
 import os
 
 import patients_tracker
+from logger import Logger
+
+logger = Logger()
 
 
-if __name__ == "__main__":
-    print("Bot is started")
+def main():
+    logger.info("Bot is started")
 
     patients_tracker.start()
 
-    print("Bot is stopped")
+    logger.info("Bot is stopped")
 
-    os._exit(1) # noqa
+
+if __name__ == "__main__":
+    main()
+
+    os._exit(1)  # noqa
