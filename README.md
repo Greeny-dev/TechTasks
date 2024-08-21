@@ -17,6 +17,7 @@ This service allows you to launch a telegram chatbot to record patients.
 - BOT_TOKEN - Auth token for your bot
 - DB_LOCATION - Database location
 - LOG_FILE_LOCATION - Location of log file
+- TZ - Timezone 
 
 ## Docker
 ### Docker run
